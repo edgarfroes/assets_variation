@@ -80,11 +80,31 @@ class Localization {
     );
   }
 
+  /// `Escreve pelo menos 4 letras. Exemplo: PETR4.SA`
+  String get stock_search_minimun_length {
+    return Intl.message(
+      'Escreve pelo menos 4 letras. Exemplo: PETR4.SA',
+      name: 'stock_search_minimun_length',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Selecione um idioma`
   String get system_localization_selector_title {
     return Intl.message(
       'Selecione um idioma',
       name: 'system_localization_selector_title',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Pesquisar`
+  String get search {
+    return Intl.message(
+      'Pesquisar',
+      name: 'search',
       desc: '',
       args: [],
     );

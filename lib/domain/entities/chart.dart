@@ -1,13 +1,18 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'chart.freezed.dart';
-part 'chart.g.dart';
 
 @freezed
 class Chart with _$Chart {
   const factory Chart({
-    required String name,
+    required List<ChartItem> items,
   }) = _Chart;
+}
 
-  factory Chart.fromJson(Map<String, Object?> json) => _$ChartFromJson(json);
+@freezed
+class ChartItem with _$ChartItem {
+  const factory ChartItem({
+    required DateTime date,
+    required double price,
+  }) = _ChartItem;
 }

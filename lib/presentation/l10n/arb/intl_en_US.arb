@@ -6,6 +6,10 @@
   "@retry_button_try_again": {},
   "home_screen_title": "Home screen",
   "@home_screen_title": {},
+  "stock_search_minimun_length": "Tap at least 4 letters. Example: PETR4.SA",
+  "@stock_search_minimun_length": {},
   "system_localization_selector_title": "Please select a language",
-  "@system_localization_selector_title": {}
+  "@system_localization_selector_title": {},
+  "search": "Search",
+  "@search": {}
 }

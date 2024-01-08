@@ -28,6 +28,9 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Página inicial"),
         "retry_button_try_again":
             MessageLookupByLibrary.simpleMessage("Tente novamente"),
+        "search": MessageLookupByLibrary.simpleMessage("Pesquisar"),
+        "stock_search_minimun_length": MessageLookupByLibrary.simpleMessage(
+            "Escreve pelo menos 4 letras. Exemplo: PETR4.SA"),
         "system_localization_selector_title":
             MessageLookupByLibrary.simpleMessage("Selecione um idioma")
       };

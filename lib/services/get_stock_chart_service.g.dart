@@ -119,7 +119,7 @@ Map<String, dynamic> _$$QuoteImplToJson(_$QuoteImpl instance) =>
 // **************************************************************************
 
 String _$getStockChartServiceHash() =>
-    r'6501d3ec26962a9b788d1668589642aebe19d589';
+    r'af8117a5140211f5f051188ff4907a17ce651b3e';
 
 /// Copied from Dart SDK
 class _SystemHash {
@@ -143,10 +143,10 @@ class _SystemHash {
 }
 
 abstract class _$GetStockChartService
-    extends BuildlessAutoDisposeAsyncNotifier<String> {
+    extends BuildlessAutoDisposeAsyncNotifier<Chart> {
   late final String stockId;
 
-  FutureOr<String> build({
+  FutureOr<Chart> build({
     required String stockId,
   });
 }
@@ -156,7 +156,7 @@ abstract class _$GetStockChartService
 const getStockChartServiceProvider = GetStockChartServiceFamily();
 
 /// See also [GetStockChartService].
-class GetStockChartServiceFamily extends Family<AsyncValue<String>> {
+class GetStockChartServiceFamily extends Family<AsyncValue<Chart>> {
   /// See also [GetStockChartService].
   const GetStockChartServiceFamily();
 
@@ -195,7 +195,7 @@ class GetStockChartServiceFamily extends Family<AsyncValue<String>> {
 
 /// See also [GetStockChartService].
 class GetStockChartServiceProvider
-    extends AutoDisposeAsyncNotifierProviderImpl<GetStockChartService, String> {
+    extends AutoDisposeAsyncNotifierProviderImpl<GetStockChartService, Chart> {
   /// See also [GetStockChartService].
   GetStockChartServiceProvider({
     required String stockId,
@@ -226,7 +226,7 @@ class GetStockChartServiceProvider
   final String stockId;
 
   @override
-  FutureOr<String> runNotifierBuild(
+  FutureOr<Chart> runNotifierBuild(
     covariant GetStockChartService notifier,
   ) {
     return notifier.build(
@@ -251,7 +251,7 @@ class GetStockChartServiceProvider
   }
 
   @override
-  AutoDisposeAsyncNotifierProviderElement<GetStockChartService, String>
+  AutoDisposeAsyncNotifierProviderElement<GetStockChartService, Chart>
       createElement() {
     return _GetStockChartServiceProviderElement(this);
   }
@@ -270,14 +270,14 @@ class GetStockChartServiceProvider
   }
 }
 
-mixin GetStockChartServiceRef on AutoDisposeAsyncNotifierProviderRef<String> {
+mixin GetStockChartServiceRef on AutoDisposeAsyncNotifierProviderRef<Chart> {
   /// The parameter `stockId` of this provider.
   String get stockId;
 }
 
 class _GetStockChartServiceProviderElement
-    extends AutoDisposeAsyncNotifierProviderElement<GetStockChartService,
-        String> with GetStockChartServiceRef {
+    extends AutoDisposeAsyncNotifierProviderElement<GetStockChartService, Chart>
+    with GetStockChartServiceRef {
   _GetStockChartServiceProviderElement(super.provider);
 
   @override

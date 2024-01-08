@@ -22,10 +22,8 @@ class AppRouter extends _$AppRouter {
           page: HomeRoute.page,
           transitionsBuilder: TransitionsBuilders.fadeIn,
           durationInMilliseconds: 400,
-          children: [
-            AutoRoute(page: ChartRoute.page),
-          ],
         ),
+        AutoRoute(page: ChartRoute.page),
       ];
 }
 
