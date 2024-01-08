@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'dart:ui';
 
 import 'package:assets_variation/domain/services/key_value_storage_service.dart';
-import 'package:assets_variation/infrastructure/services/shared_preferences_service_mixin.dart';
+import 'package:assets_variation/infrastructure/shared_preferences_service_mixin.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 

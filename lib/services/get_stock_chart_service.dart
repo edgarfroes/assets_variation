@@ -1,6 +1,5 @@
 import 'package:assets_variation/domain/entities/chart.dart';
 import 'package:assets_variation/services/yahoo_v8_api_service.dart';
-import 'package:collection/collection.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
