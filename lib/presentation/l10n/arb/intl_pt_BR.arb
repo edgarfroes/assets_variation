@@ -1,0 +1,11 @@
+{
+  "@@locale": "pt-BR",
+  "generic_error": "Ocorreu um erro",
+  "@generic_error": {},
+  "retry_button_try_again": "Tente novamente",
+  "@retry_button_try_again": {},
+  "home_screen_title": "Página inicial",
+  "@home_screen_title": {},
+  "system_localization_selector_title": "Selecione um idioma",
+  "@system_localization_selector_title": {}
+}

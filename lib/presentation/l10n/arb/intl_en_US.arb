@@ -1,0 +1,11 @@
+{
+  "@@locale": "en-US",
+  "generic_error": "An error has occurred",
+  "@generic_error": {},
+  "retry_button_try_again": "Try again",
+  "@retry_button_try_again": {},
+  "home_screen_title": "Home screen",
+  "@home_screen_title": {},
+  "system_localization_selector_title": "Please select a language",
+  "@system_localization_selector_title": {}
+}
